@@ -9,8 +9,6 @@ import java.util.List;
 
 @Entity
 @Table(name = "tb_user")
-
-
 public class User {
 
     @Id
@@ -30,13 +28,14 @@ public class User {
 
     }
 
-    public User(Long id, String name, String email, String phone, LocalDate birthDate, String password) {
+    public User(Long id, String name, String email, String phone, LocalDate birthDate, String password, List<Order> orders) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.phone = phone;
         this.birthDate = birthDate;
         this.password = password;
+        this.orders = orders;
     }
 
     public Long getId() {
