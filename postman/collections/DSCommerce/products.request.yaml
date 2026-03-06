@@ -1,0 +1,9 @@
+$kind: http-request
+name: products
+url: http://localhost:8080/products?size=10&page=0&sort=name
+method: GET
+queryParams:
+  size: "10"
+  page: "0"
+  sort: name
+order: 473631013427999
