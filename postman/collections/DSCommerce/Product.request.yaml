@@ -1,0 +1,21 @@
+$kind: http-request
+name: Product
+url: http://localhost:8080/products/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Livro Senhor dos aneis\",\r
+
+    \    \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing
+    elit. qui ad, allum\",\r
+
+    \    \"imgUrl\":
+    \"https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/\
+    backend/img/1-big.jpg\",\r
+
+    \    \"price\": 200.0\r
+
+    }"
+order: 1662279354419044
