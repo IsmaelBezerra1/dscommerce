@@ -3,5 +3,5 @@ name: product by id
 url: |-
   	
   http://localhost:8080/products/1
-method: GET
-order: 2000
+method: DELETE
+order: 3059318753592899

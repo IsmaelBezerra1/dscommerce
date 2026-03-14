@@ -2,4 +2,20 @@ $kind: http-request
 name: New Product
 url: http://localhost:8080/products
 method: POST
-order: 2083
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Livro Senhor dos aneis\",\r
+
+    \    \"description\": \"Lorem ipsum, dolor sit amet consectetur adipisicing
+    elit. qui ad, allum\",\r
+
+    \    \"imgUrl\":
+    \"https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/\
+    backend/img/1-big.jpg\",\r
+
+    \    \"price\": 200.0\r
+
+    }"
+order: 3000
